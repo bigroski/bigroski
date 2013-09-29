@@ -1,0 +1,470 @@
+body {	
+	background-image:url(../images/bg.jpg);
+    background-repeat: repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin:0px 0px 0px 0px;
+}
+p{margin:0px 0px 10px 0px;}
+
+td,tr{text-align:left;}
+hr { color: #fff; background-color: #fff; border: solid 1px #cccccc; border-style: none none solid; padding: 0; margin: 0; height:1px;}
+img{border:0px;}
+a
+{
+	color:#000000;
+	text-decoration:none;
+}
+
+.clear{ clear:both; }
+
+#wrapper
+{
+	width: 983px;
+	margin:auto;
+	background-image:url(../images/index_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#wrapperic
+{
+	width: 983px;
+	margin:auto;
+	background-image:url(../images/ic_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#content
+{
+	background-color:#FFFFFF;
+	padding:20px;
+}
+#contentfuar
+{
+	background-color:#FFFFFF;
+	padding:20px;
+	background-image:url(../images/fuar_resim.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+
+#contentfuar_eng
+{
+	background-color:#FFFFFF;
+	padding:20px;
+	background-image:url(../images/fuar_resim_eng.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+#contentbasinda
+{
+	background-color:#FFFFFF;
+	padding:20px;
+	background-image:url(../images/basinda_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+#head
+{
+}
+
+#menu
+{
+	float:right;
+	padding-top:10px;
+
+}
+#menu ul
+{
+	margin:0;
+	padding:0;
+}
+#menu li
+{
+	margin:0;
+	padding:0;
+	color: #252525;
+	font-size: 13px;
+	font-family:"Trebuchet MS";
+	font-weight:bold;
+	float:left;
+	list-style:none;
+	line-height:46px;
+	margin-right:20px;
+}
+#menu li a
+{
+	color: #252525;
+	text-decoration:none;
+}
+
+#search
+{
+	float:right;
+	height:60px;
+	position:relative;
+}
+
+.input
+{
+	float:left;
+	width:178px;
+	height:20px;
+	line-height:20px;
+	padding-right:4px;
+	text-align:center;
+	background-image:url(../images/inputbg.gif);
+	background-repeat:repeat-x;
+	border:0;
+	font-size:12px;
+}
+
+.btn
+{
+	height:20px;
+	width:25px;
+}
+.flashbanner
+{
+}
+
+.gecis
+{
+	height: 126px;
+}
+
+#bottom
+{
+	height:250px;
+}
+
+
+#bottom div.newsbg
+{
+	width:322px;
+	float:left;
+}
+#bottom div.newsbaslik
+{
+	color: #e20000;
+	font-weight:bold;
+	margin-left:15px;
+	margin-top:14px;
+}
+
+#bottom div.news
+{
+	margin-top:120px;
+	padding-left:25px;
+	padding-right:10px;
+	float:left;
+}
+
+#bottom div.lansmanbg
+{
+	margin-left: 8px;
+	width:322px;
+	float:left;
+}
+#bottom div.lansmanbaslik
+{
+	color: #e20000;
+	font-weight:bold;
+	margin-left:15px;
+	margin-top:14px;
+}
+
+#bottom div.lansman
+{
+	margin-top:120px;
+	padding-left:25px;
+	float:left;
+}
+
+
+#bottom div.kampbg
+{
+	margin-left: 8px;
+	float:left;
+}
+#bottom div.kampbaslik
+{
+	color: #e20000;
+	font-weight:bold;
+	margin-left:15px;
+	margin-top:18px;
+}
+
+#bottom div.kamp
+{
+	margin-top:120px;
+	padding-left:25px;
+	float:left;
+}
+
+#footer
+{
+	font-size:11px;
+	width:983px;
+	background-image:url(../images/footer_bg.jpg);
+	background-repeat:no-repeat;
+	height: 75px;
+	margin-top:7px;
+	padding-top:20px;
+}
+
+#footer div.copyright
+{
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+}
+
+#footer div.createdby
+{
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+}
+
+
+#kurumsalorta
+{
+	background-image:url(../images/kurumsalbg.jpg);
+	height:117px;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration:none;
+	padding-right:30px;
+	text-align:right;
+	line-height:117px;
+}
+
+#iletisimorta
+{
+	background-image:url(../images/iletisimbg.jpg);
+	height:117px;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration:none;
+	padding-right:30px;
+	text-align:right;
+	line-height:117px;
+}
+#basindaorta
+{
+	background-image:url(../images/basinbg.jpg);
+	height:117px;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration:none;
+	padding-right:30px;
+	text-align:right;
+	line-height:117px;
+}
+
+#eglenceorta
+{
+	background-image:url(../images/oyunlarres.jpg);
+	height:117px;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration:none;
+	padding-right:30px;
+	text-align:right;
+	line-height:117px;
+}
+
+#aramaorta
+{
+	background-image:url(../images/aramabg.jpg);
+	height:117px;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration:none;
+	padding-right:30px;
+	text-align:right;
+	line-height:117px;
+}
+
+#markabg
+{
+	width:228px;
+	height:163px;
+	background-image:url(../images/marka_bg.jpg);
+	float:left;
+}
+
+#markaaltkat
+{
+	width:286px;
+	height:157px;
+	margin-left:25px;
+	background-image:url(../images/altkat_bg.jpg);
+	float:left;
+	margin-top:5px;
+}
+
+
+#markaaltkat div.resim
+{
+	float:left;
+	padding-left:10px;
+	height:137px;
+	margin:auto;
+}
+
+#markaaltkat div.katad
+{
+	float:left;
+	color: #dd4d00;
+	font-size:14px;
+	padding-top:30px;
+	width:105px;
+	margin:auto;
+}
+
+#markaaltkat div.katad a
+{
+	float:left;
+	color: #dd4d00;
+}
+
+
+.fuarBaslik
+{
+	font-size:14px;
+	color:#FF0000;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.fuarresim
+{
+	margin:auto;
+}
+
+
+.urunBg
+{
+	width: 283px;
+	border:1px solid #cccccc;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+.urunresim
+{
+float:left;
+margin:auto;
+padding-left:60px;
+}
+
+#urunleft
+{
+	padding-left:10px;
+	padding-top:10px;
+}
+.urunad
+{
+	font-weight:bold;
+	font-size:13px;
+	color:#FF0000;
+	padding-bottom:5px;
+}
+
+#haberbaslik
+{
+}
+#haberbaslik h2
+{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+#demo {
+  background-color:#eeeeee;
+  cursor:pointer;
+  padding:5px 20px 5px 20px;
+}
+
+#demo span {
+  padding:3px 20px 0px 20px;
+  cursor:pointer;
+}
+
+#demo span:hover {
+  text-decoration:underline;
+}
+
+#urunleft
+{
+	width:253px;
+	float:left;
+}
+
+#urunkat
+{
+	width:253px;
+	background-image:url(../images/urunkat_bg1.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-color:#cacacb;
+	float:left;
+}
+
+#urunkat div.baslik
+{
+	color: #e20000;
+	font-weight:bold;
+	margin-left:15px;
+	margin-top:14px;
+	padding-bottom:30px;
+}
+
+#urunkat div.kategoriler
+{
+	color: #e20000;
+	font-weight:bold;
+	padding:10px;
+}
+
+#urunkatalt
+{
+	width:253px;
+	background-image:url(../images/urunkat_bg2.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#urunicerik
+{
+	float:left;
+	padding-left:10px;
+	padding-top:10px;
+	
+}
+
+#urunicerik h2
+{
+	font-size:14px;
+	color:#FF0000;
+}
+
+
+#flag
+{
+	
+}
+
+.haberline
+{
+	background-image:url(../images/haberline.jpg);
+	background-repeat:no-repeat;
+	height:7px;
+	width:270px;
+}

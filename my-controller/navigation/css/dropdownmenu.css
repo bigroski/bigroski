@@ -1,0 +1,64 @@
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+
+
+/* 
+	LEVEL ONE
+*/
+ul.dropdown                         { position: relative; z-index:199; margin:0px; padding:0px; }
+ul.dropdown li                      { float: left; zoom: 1; font-weight:bold; font-size:14px;
+	line-height:28px;
+	height:32px;
+	 margin-bottom:1px;
+	 background-color:#FFFFFF;
+	 
+	 width:147px; 
+	 padding:0px 10px;}
+ul.dropdown a:hover		            { }
+ul.dropdown a:active                { color: #000000; background: url(../images/large_nav_hover.jpg) repeat-x bottom #FFFFFF}
+ul.dropdown li a,ul.submenu li a                    { display: block; color: #000000; font-size:13px; }
+ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+ul.dropdown li.hover,ul.dropdown li:hover                
+{ background: #66a1d2; color: #fff; position: relative; }
+ul.dropdown li.hover > a              { color:#fff; }
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ width: 200px; padding:0px; visibility: hidden; position: absolute; top: 0px; left: 100%; margin-right:0px; border: 1px solid #66a1d2; z-index: 900;}
+ul.dropdown ul li { 
+	
+		background:#FFFFFF; 
+		color: #000;		
+		float: left; 
+		padding:0px 5px; 
+		text-align:left; 
+		width:190px; 
+		margin:0px; 
+		/*border-top:1px solid #454545;
+		height:30px;
+		 line-height:22px;*/
+	font-size:13px; font-weight:normal;
+		}
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block;   } 
+ul.dropdown ul li:hover 					{background: #66a1d2; }
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible;}
+
+/* 
+	LEVEL Four
+*/
+ul.dropdown ul ul ul				{ left: 100%; top: 0;}
+ul.dropdown ul ul ul li a				{ }
+ul.dropdown ul li:hover > ul 			{ visibility: visible; }
+
+ul.dropdown ul.sub_menu {width:96px; height:126px; float:left;  position:absolute;top:0;}
+ul.dropdown ul.sub_menu li{width:96px; height:126px;}
+ul.dropdown ul.sub_menu li img{width:90px; height:120px;}
+

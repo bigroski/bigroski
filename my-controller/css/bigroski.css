@@ -1,0 +1,25 @@
+.bigroski{
+	cursor:pointer;
+	color:#FFF;
+	border-radius:5px;
+}
+
+.b-checked{
+	background:url('../images/check-64.png') left no-repeat;
+	border:1px solid #008110;
+	padding:4px 4px 4px 35px;
+	font-weight: bold;
+	color:#000;
+	
+}
+.b-checked:hover{
+	background-color:#FF4940;
+}
+.b-un-checked{
+	padding:2px;
+	border:1px solid #FF4940;
+	background:#FF4940;
+}
+.b-un-checked:hover{
+	background:#259433;
+}

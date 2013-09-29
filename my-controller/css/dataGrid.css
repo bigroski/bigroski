@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+table#dataGrid a{color:#000;}
+	
+	table#dataGrid{
+		margin:0 auto;
+		font-family:Calibri;
+		width:100%;
+		border-collapse:collapse;
+		font-size:14px;
+	}
+	table#dataGrid > thead
+	{
+		background:#66a1d2;
+		color:#FFF;
+		text-transform:uppercase;
+	}
+	table#dataGrid > thead > th{
+		text-align:left;
+		padding:3px 10px;
+		font-size:16px;
+	}
+	table#dataGrid > tbody > tr{
+		border-bottom:1px solid #F0F0F0;
+		border-left:1px solid #F0F0F0;
+		border-right:1px solid #F0F0F0;
+		text-align:left;
+	}
+	table#dataGrid > tbody > tr:hover{
+		background:#F5F5F5;
+	}
+	table#dataGrid > tbody > tr > td{
+		
+		padding:5px 10px;
+	}
+	table#dataGrid > tbody > tr.active{
+		background:#F5F5F5;
+	}
+	#dataGrid tbody  tr td > input[type=text], #dataGrid tbody  tr  td > textarea, #dataGrid tbody  tr td > input[type=password],#dataGrid tbody  tr td > select,#password{
+		border:1px solid #ccc;
+		border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    -o-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	    -ms-border-radius:5px;
+	    -khtml-border-radius:5px;
+	}
+	#dataGrid tbody  tr td > input[type=text]:focus, #dataGrid tbody  tr  td > textarea:focus, #dataGrid tbody  tr  td > input[type=submit]:focus{
+		box-shadow: 1px 1px 1px #AAD4FF;
+		-webkit-box-shadow: 1px 1px 1px #AAD4FF;
+	}
+	#dataGrid tbody  tr td > input[type=text],#dataGrid tbody  tr td > input[type=password],#password{
+		width:300px;
+		height:30px;
+	}
+	#dataGrid tbody  tr td > select{
+		/*width:135px;*/
+		height:30px;
+		font-weight:bold;
+		text-align:center;
+		line-height: 5px;
+	}
+	#dataGrid tbody  tr td > select option{
+		font-weight:bold;
+		text-align:center;
+	}
+	#dataGrid tbody  tr  td > textarea{
+		width:350px;
+		height:150px;
+		
+	}
+	#dataGrid tbody  tr  td > input[type=submit],#dataGrid tbody  tr  td > input[type=button]{
+		width:100px;
+		height:30px;
+		cursor:pointer;
+		box-shadow: 1px 1px 1px #000;
+		-webkit-box-shadow: 1px 1px 1px #000;
+		font-weight: bold;
+	}
+#search_pane {
+	padding:10px 0;
+	margin:0;
+	margin-bottom:20px;
+	width:100%;
+	border:1px solid #999;
+	border-left-radius:5px;
+	background-color:#EFEFEF;
+}
+
+
+/**********************************************************************************/
+ TABLE DESIGN 
+
+#dataHolder {
+	padding:0;
+	margin:0;
+	width:100%;
+	border:1px solid #999;
+	border-left-radius:5px;
+}
+
+#box-table-a {
+	font-size: 12px;
+	margin: 0px;
+	text-align: left;
+	border:1px solid #CCC;
+	border-collapse: collapse;
+	width:100%;
+}
+
+#box-table-a thead th {
+	font-size: 15px;
+	font-weight: normal;
+	padding: 10px 5px;
+	background: #EFEFEF;
+	color: #333;
+	text-align: left;
+	margin:0;
+	border-top: none !important;
+	border-bottom:1px solid #CCC;
+	
+}
+#box-table-a tbody td {
+	padding: 5px;
+	background: none; 
+	color: #666;
+	border:0;
+	border-top: none !important;
+	border-bottom: 1px solid #CCC;
+	font-size:13px;
+	text-align:left;
+}
+#box-table-a tbody tr:hover td {
+	background: #FBFBFB;
+	color: #333;
+}
+#box-table-a tr.footer { background: none !important; }
+#box-table-a tr.footer:hover td { background: none !important;  }
+
+
+/*******************************************************************************/

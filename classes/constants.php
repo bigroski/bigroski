@@ -1,0 +1,35 @@
+<?php  
+define("ENV",'development');
+define( "SITE_FOLDER","/tayas1/");
+define("BASE_PATH",'D:/wamp/www'.SITE_FOLDER);
+//define("BASE_PATH",$_SERVER[DOCUMENT_ROOT].SITE_FOLDER);
+//echo __DIR__;
+define( "DB_PREFIX","tbl");
+define( "MAIN_PAGE"," tbl_page ");
+define( "SUB_PAGE"," tbl_subpage ");
+define( "NEWS_TYPE"," tbl_news_type ");
+define( "NEWS_TBL"," tbl_news ");
+define( "RESOURCE_TBL"," tbl_resource_cat ");
+define( "RESOURCE"," tbl_resource ");
+define( "SLIDER"," tbl_slider ");
+define( "ADVERTISEMENT"," tbl_advertisement ");
+define( "STAFF_CAT"," tbl_staff_cat ");
+define( "STAFF_TBL"," tbl_staffs ");
+define( "IMAGE_TBL"," tbl_images ");
+define( "MESSAGE"," tbl_message ");
+define( "PROGRAM_TBL"," tbl_program ");
+define( "NEWS_SUB_TYPE"," tbl_subnews_type ");
+define( "REQUEST_TBL"," tbl_request ");
+define( "PARTNER_TBL"," tbl_partner ");
+define( "POLL"," tbl_poll ");
+define( "EVENT_TBL", "tbl_events");
+define( "UPLOAD_PATH","uploads/audio/");
+define( "NOTICE_PATH","uploads/documents/");
+define( "SITE_URL","http://".$_SERVER['SERVER_NAME'].SITE_FOLDER);
+define( "ADMIN_URL", SITE_URL.'my-controller/');
+define( "IMAGE_URL", SITE_URL."images/");
+define( "CSS_URL", SITE_URL."css/");
+define( "JS_URL", SITE_URL."js/");
+define( "DEFAULT_THUMB_HEIGHT",210);
+define( "DEFAULT_THUMB_WIDTH", 210);
+?>
